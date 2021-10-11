@@ -1,5 +1,5 @@
 # WRITE  BY @GGGNE - @RR9R7
-# PLUGIN FOR JepThon USERBOT
+# PLUGIN FOR DARKTHoN USERBOT
 # @JepThon
 
 import random
@@ -15,7 +15,7 @@ from ..core.managers import edit_or_reply
 
 plugin_category = "extra"
 
-# اوامر الادمن لسورس جـيبثون
+# وداركثون اوامر الادمن لسورس جـيبثون
 
 @jmthon.ar_cmd(
     pattern="اوامر الحظر$",
