@@ -63,10 +63,10 @@ async def _(event):  #   : @RR7PP
     names, usernames = await sanga_seperator(responses)
     cmd = event.pattern_match.group(1)
     jasem = None
-    check = usernames if cmd == "معرفات" else names
+    check = usernames if cmd == "يوزرات" else names
     for i in check:
         if jasem:
             await event.reply(i, parse_mode=_format.parse_pre)
-        else:#ترجمه فريق جـيبثون على التيلكرام
+        else:#تعريب فريق داركثون اذا تريد تخمط اذكر مصدر يحلو
             jasem = True
             await catevent.edit(i, parse_mode=_format.parse_pre)
