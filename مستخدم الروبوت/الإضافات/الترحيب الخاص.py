@@ -1,5 +1,5 @@
 #========================#
-#       JepThon  - RR7PP  #  
+#       DARKTHON  - BY: RR7PP  #  
 # =======================#
 
 from asyncio import sleep
